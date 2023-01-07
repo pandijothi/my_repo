@@ -1,0 +1,11 @@
+file1=open("sample1.txt",'w')
+file1.write("Welcome to Python")
+file1=open("sample1.txt",'r')
+print(file1.read())
+file1.close()
+
+file1=open("sample1.txt",'a')
+file1.write("\nAppending the text")
+file1=open("sample1.txt",'r')
+print(file1.read())
+file1.close()

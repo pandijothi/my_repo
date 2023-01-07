@@ -26,12 +26,12 @@ print(type(a))
 Calculator - Using two numbers with user input
 """
 
-# a = int(input("Enter the number of a:"))
-# b = int(input("Enter the number of b:"))
-# print("Addition of a & b :", a+b)
-# print("Subtraction of a & b :", a-b)
-# print("Multiplication of a & b :", a*b)
-# print("Division of a & b :", a/b)
+a = int(input("Enter the number of a:"))
+b = int(input("Enter the number of b:"))
+print("Addition of a & b :", a+b)
+print("Subtraction of a & b :", a-b)
+print("Multiplication of a & b :", a*b)
+print("Division of a & b :", a/b)
 
 a=13.44444
 b=int(a)
@@ -49,7 +49,7 @@ print(type(d))
 def func():
     e = 11000
     print(e)
-    
+
 func()
 
 
